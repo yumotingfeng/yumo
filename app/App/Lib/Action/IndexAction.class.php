@@ -11,4 +11,7 @@ class indexAction extends Action {
     	$this->assign('user_list',$user_list);
 		$this->display();
     }
+    public function test(){
+        
+    }
 }
