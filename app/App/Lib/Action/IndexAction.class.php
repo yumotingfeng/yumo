@@ -16,6 +16,7 @@ class indexAction extends Action
 
     public function test ()
     {
-        echo "this is a test";
+        $testWord = "hi";
+        echo "${testWord} this is a test";
     }
 }
